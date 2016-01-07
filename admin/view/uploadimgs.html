@@ -1,0 +1,9 @@
+<form id="upload-iframe" action="" method="post" enctype="multipart/form-data">
+	<input id="file" type="file" name="file" onchange="uploadNow(this);" />
+	<button id="start">OK</button>
+</form>
+<script type="text/javascript">
+	function uploadNow(othis){
+		othis.parentNode.submit();
+	}
+</script>

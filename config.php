@@ -1,0 +1,22 @@
+<?php
+	define('HOSTNAME','http://192.168.10.35/ida/');
+	define('LOGS','D:/wamp/www/ida/logs/');
+	define('PROJECTPATH','D:/wamp/www/ida/catalog/');
+	define('ENGINE','D:/wamp/www/ida/engine/');
+	define('ALIPCPAY','D:/wamp/www/ida/alipcpay/lib/');
+	define('ALIWAPPAY','D:/wamp/www/ida/aliwappay/');
+	define('ALIBANKPAY','D:/wamp/www/ida/alibankpay/');
+	define('SERVERNAME','localhost');
+	define('DBNAME','aida');
+	define('USERNAME','root');
+	define('PASSWORD','');
+	define('MODEL',PROJECTPATH.'model/');
+	define('CONTROLLER',PROJECTPATH.'controller/');
+	define('VIEW',PROJECTPATH.'view/');
+	define('ENGINE',PROJECTPATH.'engine/');
+	define('IMG',HOSTNAME.'upload/thumbnail/');
+	define('IMGS',PROJECTPATH.'style/imgs/');
+	define('DIRFONT','C:/windows/fonts/ARIALUNI.TTF');
+	define('CLIENTURL','http://www.xxx.com');
+	define('QCODE','D:/wamp/www/ida/qcode/');
+?>

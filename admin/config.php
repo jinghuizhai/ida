@@ -1,0 +1,20 @@
+<?php
+	define('HOSTNAME','http://192.168.10.35/ida/');
+	define('EDITOR','http://192.168.10.35/ida/ueditor/');
+	define('QCODE','D:/wamp/www/ida/qcode/');
+	define('PROJECTPATH','D:/wamp/www/ida/admin/');
+	define('ENGINE','D:/wamp/www/ida/engine/');
+	define('UPLOAD','D:/wamp/www/ida/upload/');
+	define('SERVERNAME','localhost');
+	define('DBNAME','aida');
+	define('USERNAME','root');
+	define('PASSWORD','');
+	define('MODEL',PROJECTPATH.'model/');
+	define('CONTROLLER',PROJECTPATH.'controller/');
+	define('FRONT',"D:/wamp/www/ida/catalog/controller/");
+	define('VIEW',PROJECTPATH.'view/');
+	define('ENGINE',PROJECTPATH.'engine/');
+	define('IMGS',PROJECTPATH.'style/imgs/');
+	define('IMG',HOSTNAME.'upload/thumbnail/');
+	define('CLIENTURL','http://192.168.10.35/test.php');
+?>
